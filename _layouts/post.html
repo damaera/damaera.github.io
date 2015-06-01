@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<header class="blog-header">
+	<div class="img parallax" style="background-image:url('/asset_post/{{ page.cover }}')">
+	<div class="title-meta shadow-parallax">
+		<div class="wrapper">
+		  <h1 class="blog-title">{{ page.title }}</h1>
+		  <p class="blog-desc">{{ page.desc }}</p>
+		  <p class="blog-tags"> <small>in</small>
+		  	{% for tag in page.tags %}
+		  		<span>{{ tag }}</span>,
+		  	{% endfor %}
+		  </p>
+		  <p class="blog-meta">&mdash; {{ page.date | date: "%b %-d, %Y" }} &mdash;</p>
+		</div>
+	</div>
+	</div>
+</header>
+
+<div class="post wrapper">
+  <article class="post-content blog">
+    {{ content }}
+    <hr>
+  </article>
+  <div class="related-post">
+		{% if page.next %}
+		<div class="next">
+			<a href="{{page.next.url}}">
+				<h6>Next  <i>&#8594;</i></h6>
+				<h5>{{page.next.title}}</h5>
+			</a>
+		</div>
+		{% endif %}
+		{% if page.previous %}
+		<div class="prev">
+			<a href="{{page.previous.url}}">
+				<h6><i>&#8592;</i>  Previous</h6>
+				<h5>{{page.previous.title}}</h5>
+			</a>
+		</div>
+		{% endif %}
+		<div class="clear"></div>
+  </div>
+	<a class="muut" href="https://muut.com/i/damaera/comments" type="dynamic"></a>
+	<script src="//cdn.muut.com/1/moot.min.js"></script>
+</div>
+
+<div class="decor-blog" align="center">&#10086;</div>
+
+<script src="/js/anchor.js"></script>
+<script src="/js/blog.js"></script>
+<script src="/js/parallax.js"></script>

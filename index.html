@@ -1,0 +1,93 @@
+---
+layout: default
+---
+
+<div class="home">
+  <div class="landing parallax">
+    <div class="content shadow-parallax">
+      <div class="wrapper">
+        <img src="/asset_site/damaera-text.png" alt="">
+        <h1>Lutfi <i>Mukti</i> <b>Damaera</b></h1>
+        <h3>Web Designer <i>&</i> Developer.</h3>
+        <div class="desc">
+          Designing and Developing. <br>Websites, Apps, Logo, Branding, Themes etc.
+        </div>
+        <div class="decor">&mdash;&#10086;&mdash;</div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about">
+    <div class="about">
+      
+    </div>
+    <div class="skill">
+      <h1>About</h1>
+      <h3 class="wrapper">“The love of learning, the sequestered nooks & all the sweet serenity of books.”</h3>
+      {% for cat in site.data.skill %}
+      <div class="stack">
+        <h4>{{ cat[0] | capitalize }}</h3>
+        <table align="center">
+        {% for item in cat[1] %}
+          <tr>
+            <td class="item-skill">
+              {{ item[0] }}
+            </td>
+            <td class="rating">
+              {% for i in (1..item[1]) %}
+                &starf;
+              {% endfor %}
+            </td>
+          </tr>
+        {% endfor %}
+        </table>
+      </div>
+      {% endfor %}
+      <div class="clear"></div>
+      <div class="decor-blog" align="center">&mdash;&#10086;&mdash;</div>
+    </div>
+  </div>
+
+  <div id="portfolio">
+    <div class="wrapper">
+      <h1>Portfolio</h1>
+    </div>
+    <div class="work-list">
+    {% for work in site.data.work %}
+      <div class="work">
+        <figure style="background:{{work.background}}">
+          <img src="/asset_site/{{work.image}}" alt="{{work.name}}">
+        </figure>
+        <section>
+          <a href="{{work.url}}" target="_blank"><h4>{{work.name}}</h4></a>
+          <h6>{{work.role}}</h6>
+        </section>
+      </div>
+    {% endfor %}
+      <div class="clear"></div>
+    </div>
+    <div class="decor-blog" align="center">&mdash;&#10086;&mdash;</div>
+  </div>
+
+  <div id="contact">
+    <div class="container">
+      <h1>Contact</h1>
+      <h3>telp: +(62) 085-7000-67-477 </h3>
+      <h3>email: <a href="mailto:damaera@live.com" target="_blank">damaera@live.com</a> </h3>
+      <h3>github: <a href="http://github.com/damaera" target="_blank">@damaera</a> </h3>
+      <h3>twitter: <a href="http://twitter.com/vamaera" target="_blank">@vamaera</a> </h3>
+
+      <h4>Surakarta, Indonesia</h4>
+      <div class="decor-blog" align="center">&mdash;&#10086;&mdash;</div>
+    </div>
+  </div>
+</div>
+
+<script src="/js/scroll.min.js"></script>
+<script src="/js/parallax.js"></script>
+<script>
+  smoothScroll.init({
+    speed: 200,
+    easing: 'easeInOutCubic'
+  })
+</script>

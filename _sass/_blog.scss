@@ -1,0 +1,230 @@
+.blog-header{
+	overflow: hidden;
+	text-align: center;
+	color: #fff;
+	width: 100%;
+	.img {
+		width: 100%;
+		background-color: #333;
+		background-size: cover;
+		background-position: center;
+	}
+	.title-meta {
+		background: rgba(0,0,0,0.45);
+		p{
+			margin-bottom: 0;
+		}
+		.blog-title{
+			font-size: 3em;
+			padding: 2em 0 .3em 0;
+			line-height: 1;
+			margin: 0;
+		}
+		.blog-desc {
+			font-family: $serif-font-family;
+			font-size: 20px;
+			font-style: italic;
+			margin-top: -.5em;
+			padding: 1em;
+		}
+		.blog-tags {
+			font-size: 18px;
+			span{
+				padding-left: 5px;
+				font-weight: bold;
+			}
+		}
+		.blog-meta {
+			font-family: $serif-font-family;
+			font-size: 18px;
+			font-weight: bold;
+			padding-bottom: 4em;
+		}
+	}
+}
+.decor-blog{
+	font-size: 1.5em;
+	padding-bottom: 1em;
+  color: $grey-color;
+}
+.blog {
+	font-size: 21px;
+	line-height: 1.8;
+	letter-spacing: -.003em;
+  font-family: $serif-font-family;
+  word-spacing: 2px;
+  h1,h2,h3,h4{
+  	cursor: pointer;
+  }
+  .anchorjs-link{
+  	border: none;
+  }
+  a{
+  	border-bottom: solid 1px #999;
+  	color: $text-color;
+  	&:hover{
+  		color: $grey-color;
+  	}
+  }
+  .image {
+  	margin: 0 auto;
+  	padding: 2em 0 0.5em;
+  }
+	.caption{
+		text-align: center;
+		width: 80%;
+		font-style: italic;
+		font-size: 0.8em;
+		margin: 0 auto;
+	}
+	hr{
+		width: 200px;
+		margin: 2em auto;
+		border: none;
+		border-bottom: solid 1px #eee;
+	}
+	h1, h2{
+		font-size: 1.6em;
+		font-weight: 800;
+		line-height: 1;
+		font-family: $base-font-family;
+		margin: 1em 0 -.5em 0;
+		margin-top: -80px;
+		padding-top: 80px;
+	}
+	h3, h4{
+		line-height: 1;
+		font-size: 1.5em;
+		font-weight: 200;
+		font-family: $base-font-family;
+		margin: 1em 0 -.5em 0;
+		margin-top: -80px;
+		padding-top: 80px;
+	}
+	p{
+		margin: 2em 0 0 0;
+	}
+	@include media-query($on-palm) {
+		& {
+			font-size: 18px;
+		}
+		blockquote {
+			font-size: 20px;
+		}
+	}
+}
+.related-post{
+	div{
+		padding: .5em 0;
+		width: 40%;
+		@include media-query($on-palm) {
+			width: 100%;
+			text-align: center !important;
+		}
+	}
+	.prev{
+		float: left;
+		text-align: left;
+	}
+	.next{
+		text-align: right;
+		float: right;
+	}
+	h5, h6{
+		margin: .5em 0;
+		line-height: 1;
+	}
+	h5{
+		color: $grey-color;
+		font-weight: 200;
+		font-size: 1.2em;
+	}
+	h6{
+		color: $text-color;
+		font-size: .9em;
+	}
+}
+.moot{
+	.m-syntax{
+		padding: 10px !important;
+		font-size: 16px !important;
+	}
+	.m-page a{
+		color: $brand-color !important;
+	}
+	.m-reply{
+		padding: 1em 0 !important;
+	}
+	.m-postinput {
+		background: $grey-color-light;
+		font-size: 1em !important;
+		border: solid 1px $grey-color-light !important;
+		&:focus{
+			background: $grey-color-very-light;
+			outline: none !important;
+		}
+	}
+	.m-focused .m-postinput{
+		border: solid 1px $grey-color-light !important;
+  	box-shadow: none !important;
+	}
+	.m-comment_count {
+		font-family: $serif-font-family;
+		color: inherit !important;
+		font-style: italic;
+	}
+	.m-body{
+		font-family: $serif-font-family !important;
+		font-size: 20px !important;
+	}
+	.m-preview{
+		padding: 1em !important;
+	}
+	.m-preview-title{
+		text-transform: capitalize !important;
+		font-family: $serif-font-family !important;
+		font-style: italic;
+		&::before{
+			content: '&;';
+		}
+	}
+	button{
+		border-radius: 3px !important;
+		font-weight: bold !important;
+		background: lighten($brand-color, 40%) !important;
+		color: $brand-color !important;
+		border: solid 1px lighten($brand-color, 30%) !important;
+	}
+	.m-moot{
+		background: white !important;
+	}
+	#moot-logo {
+		padding: 0 !important;
+		height: 0;
+		a{
+			display: none;
+		}
+	}
+}
+/**
+ * Blockquotes
+ */
+blockquote {
+	font-family: $base-font-family;
+	font-weight: 200;
+	// font-style: italic;
+  color: $grey-color;
+  border-left: 2px solid $grey-color-light;
+  font-size: 20px;
+  margin: 2em 0;
+  display: block;
+  padding-left: $spacing-unit;
+  padding-top: $spacing-unit / 2;
+  padding-bottom: $spacing-unit / 2;
+  p {
+  	margin: 0 !important;
+  }
+  > :last-child {
+    margin-bottom: 0;
+  }
+}

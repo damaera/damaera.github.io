@@ -1,0 +1,179 @@
+.home{
+  text-align: center;
+  line-height: 1;
+  .landing{
+    color: rgba(255,255,255,0.9);
+    position: relative;
+    z-index: 1;
+    background-color: #333;
+    background-image: url("/asset_site/deer.jpeg");
+    background-size: cover;
+    background-position: center;
+    img{
+      width: 200px;
+    }
+  }
+  .content{
+    padding: 4em 0 8em 0;
+    width: 100%;
+    background: rgba(0,0,0,0.45);
+  }
+  h1{
+    font-size: 3em;
+    font-weight: 200;
+    i{
+      font-style: normal;
+      font-weight: normal;
+    }
+  }
+  h3{
+    font-family: $serif-font-family;
+    font-size: 1.6em;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 1.4;
+    i{
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+  }
+  .decor{
+    margin-top: .4em;
+    font-size: 1.4em;
+  }
+  .desc{
+    font-size: 1.1em;
+    line-height: 1.2;
+    // font-family: $serif-font-family;
+  }
+  .skill{
+    padding: 6em 0 3em 0;
+    background: $grey-color-very-light;
+    .stack{
+      margin: 1.5em 0;
+      width: 33.3333%;
+      float: left;
+      @include media-query($on-palm) {
+        &{
+          width: 100%;
+        }
+      }
+    }
+    tr{
+      cursor: pointer;
+      color: $grey-color;
+    }
+    tr:hover{
+      .item-skill, .rating{
+        color: $brand-color;
+      }
+    }
+    .rating{
+      letter-spacing: -0.08em;
+    }
+    td{
+      padding: 5px 1em;
+      text-align: left;
+    }
+    h3{
+      font-size: 1.3em;
+      color: $grey-color;
+      margin: 1em auto;
+      max-width: 400px;
+    }
+    .item-skill{
+      font-weight: 200;
+    }
+  }
+}
+
+#portfolio{
+  padding: 6em 0 0 0;
+  .work-list{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .work{
+    float: left;
+    max-width: 100%;
+    width: 46%;
+    margin: 2%;
+    box-sizing: border-box;
+    cursor: pointer;
+    &:hover{
+      img{
+        -ms-transform: scale(1.05,1.05); /* IE 9 */
+        -webkit-transform: scale(1.05,1.05); /* Safari */
+        transform: scale(1.05,1.05);
+      }
+      h4{
+        border-bottom: solid 1px $grey-color-light;
+      }
+    }
+    @include media-query($on-palm) {
+      &{
+        width: 96%;
+      }
+    }
+    figure{
+      padding: 1px;
+      img{
+        width: 30%;
+        margin: 15% 35%;
+      }
+    }
+    h4{
+      font-weight: 200;
+      font-size: 1.4em;
+      color: $grey-color;
+      margin: 0 auto;
+      box-sizing: border-box;
+      display: inline-block;
+      padding: 5px;
+      border-bottom: solid 1px rgba(0,0,0,0);
+    }
+    h6{
+      width: 70%;
+      height: 70px;
+      margin: .5em auto 1em auto;
+      font-size: 1em;
+      line-height: 1.4;
+      font-style: italic;
+      font-weight: normal;
+      font-family: $serif-font-family;
+    }
+  }
+}
+
+#contact{
+  color: #fff;
+  background-color: #333;
+  background-image: url("/asset_site/wolf.jpeg");
+  background-size: cover;
+  background-position: center;
+  .container{
+    padding: 8em 0 4em 0;
+    background: rgba(0,0,0,0.65);
+  }
+  h1{
+    font-weight: bold;
+  }
+  h3{
+    line-height: 1.6;
+    font-size: 1.4em;
+    margin: 0;
+    a{
+      color: #fff;
+      border-bottom: solid 1px #fff;
+    }
+  }
+  h4{
+    margin: 2em;
+    font-size: 1.4em;
+    font-weight: 200;
+  }
+  .decor-blog{
+    color: #fff;
+  }
+}

@@ -1,0 +1,20 @@
+- name: Damn Framework
+  image: damn-framework.png
+  background: '#f6f6f6'
+  role: |
+    architecturing a PHP framework & creating documentation
+  url: http://damaera.github.io/damn/
+
+- name: RedBerry
+  image: redberry.png
+  background: '#FFD3B7'
+  role: |
+    logo & branding
+  url: https://instagram.com/redberrybox/
+
+- name: crafTUNER
+  image: craftuner.png
+  background: '#eee'
+  role: |
+    UI/UX & Front end website
+  url: https://craftuner.com/
