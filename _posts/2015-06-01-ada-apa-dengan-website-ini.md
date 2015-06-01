@@ -4,6 +4,7 @@ title:  Ada apa dengan Hosting Gratis dan Website ini?
 date:   2015-06-01 00:00:00
 categories: blog
 tags: jekyll design
+front: free-seagull-small.jpeg
 cover: free-seagull.jpeg
 desc: Bagaimana cara saya membuat website dan blog ( yang indah ) ini. Minimalist but Awesome site. Semuanya Gratis, Termasuk juga Hosting! Saya akan ungkap.
 ---

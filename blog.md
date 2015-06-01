@@ -19,7 +19,7 @@ permalink: /blog/
   {% for post in site.posts %}
     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
       <li>
-        <div class="img" style="background-image:url('/asset_post/{{ post.cover }}')"></div>
+        <div class="img" style="background-image:url('/asset_post/{{ post.front }}')"></div>
         <h1 class="title">
           {{ post.title }}
         </h1>
