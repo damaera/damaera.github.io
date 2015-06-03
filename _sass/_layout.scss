@@ -1,3 +1,8 @@
+.decor-blog{
+    font-size: 1.5em;
+    padding-bottom: 1em;
+  color: $grey-color;
+}
 .blogs{
     .big-title{
         font-size: 3em;
@@ -16,6 +21,9 @@
         font-weight: normal;
         color: $grey-color;
         font-family: $serif-font-family;
+    }
+    .list{
+        min-height: 500px;
     }
 }
 

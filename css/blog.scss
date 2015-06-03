@@ -9,24 +9,33 @@ Calendas Plus
  */
 @font-face {
   font-family: 'Calendas Plus';
+  src: url('/font/Calendas-Plus-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Calendas Plus';
   src: url('/font/Calendas-Plus-Italic.woff') format('woff');
   font-style: italic;
+}
+@font-face {
+  font-family: 'Calendas Plus';
+  src: url('/font/Calendas-Plus-Bold.woff') format('woff');
+  font-weight: bold;
 }
 /*
 @font-face
 Aileron
  */
 @font-face {
-	font-family: 'Aileron';
+  font-family: 'Aileron';
   src: url('/font/Aileron-Regular.otf') format('opentype');
 }
 @font-face {
-	font-family: 'Aileron';
+  font-family: 'Aileron';
   src: url('/font/Aileron-Heavy.otf') format('opentype');
   font-weight: 800;
 }
 @font-face {
-	font-family: 'Aileron';
+  font-family: 'Aileron';
   src: url('/font/Aileron-Light.otf') format('opentype');
   font-weight: 200;
 }
@@ -71,12 +80,10 @@ $on-laptop:        1000px;
         @content;
     }
 }
-
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
         "layout",
-        "home"
+        "blog",
+        "syntax-highlighting"
 ;
