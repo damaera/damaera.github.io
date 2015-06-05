@@ -48,6 +48,7 @@
 	letter-spacing: -.003em;
   font-family: $serif-font-family;
   word-spacing: 2px;
+  padding-top: 1em;
   h1,h2,h3,h4{
   	cursor: pointer;
   }
@@ -63,7 +64,7 @@
   }
   .image {
   	margin: 0 auto;
-  	padding: 2em 0 0.5em;
+  	padding: 1em 0;
   }
 	.caption{
 		text-align: center;
@@ -71,6 +72,7 @@
 		font-style: italic;
 		font-size: 0.8em;
 		margin: 0 auto;
+		margin-bottom: 3em;
 	}
 	hr{
 		width: 200px;
@@ -89,7 +91,7 @@
 	}
 	h3, h4{
 		line-height: 1;
-		font-size: 1.5em;
+		font-size: 1.4em;
 		font-weight: 200;
 		font-family: $base-font-family;
 		margin: 1em 0 -.5em 0;
@@ -97,7 +99,7 @@
 		padding-top: 80px;
 	}
 	p{
-		margin: 2em 0 0 0;
+		margin: 2em 0 1em 0;
 	}
 	@include media-query($on-palm) {
 		& {
@@ -127,12 +129,12 @@
 	}
 	h5, h6{
 		margin: .5em 0;
-		line-height: 1;
+		line-height: 1.4;
 	}
 	h5{
 		color: $grey-color;
 		font-weight: 200;
-		font-size: 1.2em;
+		font-size: 1em;
 	}
 	h6{
 		color: $text-color;

@@ -1,9 +1,9 @@
-- name: Damn Framework
-  image: damn-framework.png
-  background: '#f6f6f6'
+- name: wolf Grid System
+  image: wolf-grid.png
+  background: '#6EAEF9'
   role: |
-    architecturing a PHP framework & creating documentation
-  url: http://damaera.github.io/damn/
+    creating Grid System, logo and documentation
+  url: http://damaera.com/wolf/
 
 - name: RedBerry
   image: redberry.png
@@ -18,3 +18,10 @@
   role: |
     UI/UX & Front end website
   url: http://craftuner.com/
+
+- name: Damn Framework
+  image: damn-framework.png
+  background: '#f6f6f6'
+  role: |
+    architecturing a PHP framework & creating documentation
+  url: http://damaera.com/damn/

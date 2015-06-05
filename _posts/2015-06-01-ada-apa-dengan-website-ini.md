@@ -21,6 +21,8 @@ desc: Bagaimana cara saya membuat website dan blog ( yang indah ) ini. Minimalis
 
 Hosting gratis dengan [GitHub Pages][page-github]. Hosting yang tak pernah down, Hosting gratis ini lebih baik dari **semua** perusahaan hosting yang ada di Indonesia _(yang sering down)_ , dan yang paling penting adalah **Free-custom domain!**. Untuk mengubah `damaera.github.io` menjadi `damaera.com`
 
+{% include image.html url="http://upload.wikimedia.org/wikipedia/commons/thumb/6/62/KN-Servers2.JPG/220px-KN-Servers2.JPG" desc="Bukan Hosting Biasa, Unlimited, Unlimited & Free" %}
+
 ---
 
 ##3. Muut, Commenting engine
