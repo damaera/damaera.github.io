@@ -3,7 +3,6 @@ layout: default
 title: Blog
 permalink: /blog/
 ---
-<link rel="stylesheet" href="/css/main.css">
 <div class="blogs wrapper">
 
 <h1 class="big-title">Blog <i>&</i> Thought</h1>

@@ -2,7 +2,6 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-
 /*
 @font-face
 Calendas Plus
@@ -17,16 +16,16 @@ Calendas Plus
 Aileron
  */
 @font-face {
-	font-family: 'Aileron';
+  font-family: 'Aileron';
   src: url('/font/Aileron-Regular.otf') format('opentype');
 }
 @font-face {
-	font-family: 'Aileron';
+  font-family: 'Aileron';
   src: url('/font/Aileron-Heavy.otf') format('opentype');
   font-weight: 800;
 }
 @font-face {
-	font-family: 'Aileron';
+  font-family: 'Aileron';
   src: url('/font/Aileron-Light.otf') format('opentype');
   font-weight: 200;
 }
@@ -70,6 +69,19 @@ $on-laptop:        1000px;
     @media screen and (max-width: $device) {
         @content;
     }
+}
+
+.not-found{
+  h1{
+    padding: 6em 0;
+    text-align: center;
+    color: $text-color;
+    i{
+      font-family: $serif-font-family;
+      font-style: italic;
+      font-weight: normal;
+    }
+  }
 }
 
 

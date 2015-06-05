@@ -17,6 +17,8 @@ dl, dd, ol, ul, figure {
     clear: both;
 }
 
+
+
 ::-moz-selection { /* Code for Firefox */
     color: #fff;
     background: $brand-color;
@@ -29,7 +31,6 @@ dl, dd, ol, ul, figure {
     opacity: 0.9;
 }
 
-
 /**
  * Basic styling
  */
@@ -37,7 +38,7 @@ body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
-    color: $text-color;
+    // color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
 
