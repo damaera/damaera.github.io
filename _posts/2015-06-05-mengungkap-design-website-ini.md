@@ -20,7 +20,7 @@ Dalam web design _(dan design yang lainnya)_, Komponen yang berkaitan disini dia
 
 Bicara tentang Typography, sama saja kita mempelajari sejarah berkembangnya zaman _([Sejarahnya](http://en.wikipedia.org/wiki/Typography#History) sangat panjang)_. Intinya adalah tentang readibility, kemudahan teks untuk dibaca **dengan nyaman**.
 
-{% include image.html url="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Pressing-16th_century.jpg/792px-Pressing-16th_century.jpg" desc="Percetakan jaman dahulu, sekitar abad ke 16. Mereka harus membuat fontnya per huruf dari besi kemudian baru bisa pressing. Mereka berjuang seperti itu hanya agar teks yang dihasilkan bisa dibaca dengan nyaman" %}
+{% include image.html url="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Pressing-16th_century.jpg/792px-Pressing-16th_century.jpg" desc="Percetakan jaman dahulu, sekitar abad ke 16. Mereka harus membuat fontnya per huruf dari besi kemudian baru bisa pressing. Mereka berjuang seperti itu hanya agar teks yang dihasilkan bisa dibaca dengan nyaman" %}
 
 ####Font Face
 
@@ -48,7 +48,7 @@ Whitespace merupakan bagian dari sebuah halaman yang (dibiarkan) tidak dijamah. 
 Bayangkan yin & yang, asumsikan sebuah konten _(teks ini)_ adalah yin, whitespace adalah yang.
 Keseimbangan adalah kuncinya. Keseimbangan antara positive dan negative content menyebabkan suatu keharmonisan konten. Penggunaan whitespace sangatlah memerlukan _sense of art yang tinggi_.
 
-{% include image.html url="http://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Jonquil_flowers_at_f5.jpg/250px-Jonquil_flowers_at_f5.jpg" desc="Background yang blur menyebabkan mata kita terfokus pada bunga. Seperti inilah kegunaan whitespace, memusatkan pandangan." %}
+{% include image.html url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Jonquil_flowers_at_f5.jpg/250px-Jonquil_flowers_at_f5.jpg" desc="Background yang blur menyebabkan mata kita terfokus pada bunga. Seperti inilah kegunaan whitespace, memusatkan pandangan." %}
 
 Biasanya orang-orang kurang menambahkan whitespace ke dalam designnya. Karena terlalu terpengaruh kedalam positive, orang-orang melupakan negative. Jika kamu merasa whitespace dalam designmu sudah cukup. **Tambahkan 2 kali lipat!**
 
