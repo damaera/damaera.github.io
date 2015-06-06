@@ -3,7 +3,7 @@
   background: '#6EAEF9'
   role: |
     creating Grid System, logo and documentation
-  url: http://damaera.com/wolf/
+  url: https://damaera.com/wolf/
 
 - name: RedBerry
   image: redberry.png
@@ -24,4 +24,4 @@
   background: '#f6f6f6'
   role: |
     architecturing a PHP framework & creating documentation
-  url: http://damaera.com/damn/
+  url: https://damaera.com/damn/
