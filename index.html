@@ -53,15 +53,17 @@ layout: default
     </div>
     <div class="work-list">
     {% for work in site.data.work %}
-      <div class="work">
-        <figure style="background:{{work.background}}">
-          <img src="/asset_site/{{work.image}}" alt="{{work.name}}">
-        </figure>
-        <section>
-          <a href="{{work.url}}" target="_blank"><h4>{{work.name}}</h4></a>
-          <h6>{{work.role}}</h6>
-        </section>
-      </div>
+      <a href="{{work.url}}" target="_blank">
+        <div class="work">
+          <figure style="background:{{work.background}}">
+            <img src="/asset_site/{{work.image}}" alt="{{work.name}}">
+          </figure>
+          <section>
+            <h4>{{work.name}}</h4>
+            <h6>{{work.role}}</h6>
+          </section>
+        </div>
+      </a>
     {% endfor %}
       <div class="clear"></div>
     </div>

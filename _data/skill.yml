@@ -1,10 +1,10 @@
 programming Language:
   JavaScript/ES5: 5
   CSS: 5
-  NodeJS: 4
-  CoffeeScript: 4
+  CoffeeScript: 5
+  NodeJS: 5
   PHP: 4
-  ES6: 3
+  ES6: 4
   Ruby: 2
 
 framework & DB:
@@ -13,14 +13,13 @@ framework & DB:
   MongoDB: 5
   AngularJS: 5
   MySQL: 4
-  ReactJS: 4
-  ReactJS: 4
+  ReactJS: 3
   LESS: 2
   Rails: 2
 
 tools:
   SublimeText: 5
-  Draw/Illustrator: 4
+  Draw/Illustrator: 5
   Git: 3
   Terminal: 3
-  Sketch: 3
+  Sketch: 2

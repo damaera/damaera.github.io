@@ -1,3 +1,17 @@
+- name: Framesia
+  image: framesia.png
+  background: '#212629'
+  role: |
+    Designing and Developing
+  url: https://framesia.com/
+
+- name: fotochi
+  image: fotochi.png?asd
+  background: '#f6f6f6'
+  role: |
+    Designing and Developing
+  url: http://fotochi.com/
+
 - name: wolf Grid System
   image: wolf-grid.png
   background: '#6EAEF9'
