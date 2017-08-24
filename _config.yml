@@ -1,9 +1,9 @@
 # Site settings
 title: |
-  Lutfi Mukti Damaera — Web Designer & Developer Indonesia
+  Lutfi Mukti Damaera — FullStack JavasScript
 email: damaera@live.com
 description: > # this means to ignore newlines until "baseurl:"
-  Lutfi Mukti Damaera, Freelance FullStack website Developer and Designer. from Indonesia
+  Lutfi Mukti Damaera, Freelance FullStack Javascript React Developer and Designer. from Indonesia
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://damaera.github.io" # the base hostname & protocol for your site
 twitter_username: vamaera
